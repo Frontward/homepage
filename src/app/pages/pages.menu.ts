@@ -93,60 +93,6 @@ export const PAGES_MENU = [
         ]
       },
       {
-        path: 'ui',
-        data: {
-          menu: {
-            title: 'UI Features',
-            icon: 'ion-android-laptop',
-            selected: false,
-            expanded: false,
-            order: 300,
-          }
-        },
-        children: [
-          {
-            path: 'typography',
-            data: {
-              menu: {
-                title: 'Typography',
-              }
-            }
-          },
-          {
-            path: 'buttons',
-            data: {
-              menu: {
-                title: 'Buttons',
-              }
-            }
-          },
-          {
-            path: 'icons',
-            data: {
-              menu: {
-                title: 'Icons',
-              }
-            }
-          },
-          {
-            path: 'modals',
-            data: {
-              menu: {
-                title: 'Modals',
-              }
-            }
-          },
-          {
-            path: 'grid',
-            data: {
-              menu: {
-                title: 'Grid',
-              }
-            }
-          },
-        ]
-      },
-      {
         path: 'forms',
         data: {
           menu: {
@@ -201,52 +147,6 @@ export const PAGES_MENU = [
             data: {
               menu: {
                 title: 'Smart Tables',
-              }
-            }
-          }
-        ]
-      },
-      {
-        path: 'maps',
-        data: {
-          menu: {
-            title: 'Maps',
-            icon: 'ion-ios-location-outline',
-            selected: false,
-            expanded: false,
-            order: 600,
-          }
-        },
-        children: [
-          {
-            path: 'googlemaps',
-            data: {
-              menu: {
-                title: 'Google Maps',
-              }
-            }
-          },
-          {
-            path: 'leafletmaps',
-            data: {
-              menu: {
-                title: 'Leaflet Maps',
-              }
-            }
-          },
-          {
-            path: 'bubblemaps',
-            data: {
-              menu: {
-                title: 'Bubble Maps',
-              }
-            }
-          },
-          {
-            path: 'linemaps',
-            data: {
-              menu: {
-                title: 'Line Maps',
               }
             }
           }
