@@ -2,7 +2,7 @@ export const PAGES_MENU = [
   {
     path: 'pages',
     children: [
-        {
+      {
         path: 'home',
         data: {
           menu: {
@@ -13,6 +13,36 @@ export const PAGES_MENU = [
             order: 0
           }
         }
+      },
+      {
+        path: 'about',
+        data: {
+          menu: {
+            title: 'About',
+            icon: 'ion-information-circled',
+            selected: false,
+            expanded: false,
+            order: 100,
+          }
+        },
+        children: [
+          {
+            path: 'author',
+            data: {
+              menu: {
+                title: 'Me',
+              }
+            }
+          },
+          {
+            path: 'company',
+            data: {
+              menu: {
+                title: 'Company',
+              }
+            }
+          }
+        ]
       }
     ]
   }

@@ -11,7 +11,8 @@ export const routes: Routes = [
     component: Pages,
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', loadChildren: 'app/pages/home/home.module#HomeModule' }
+      { path: 'home', loadChildren: 'app/pages/home/home.module#HomeModule' },
+      { path: 'about', loadChildren: 'app/pages/about/about.module#AboutModule' },
     ]
   }
 ];

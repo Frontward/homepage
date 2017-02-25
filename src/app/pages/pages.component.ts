@@ -6,11 +6,11 @@ import { PAGES_MENU } from './pages.menu';
 
 @Component({
   selector: 'pages',
-  templateUrl: './pages.html' 
+  templateUrl: './pages.html'
 })
 export class Pages {
 
-  constructor(private _menuService: BaMenuService,) {
+  constructor(private _menuService: BaMenuService) {
   }
 
   ngOnInit() {
