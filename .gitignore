@@ -49,7 +49,6 @@ npm-debug.log
 /public/dist/
 /src/*/dist/
 /dist/**
-.webpack.json
 /build
 /build/**
 /compiled
