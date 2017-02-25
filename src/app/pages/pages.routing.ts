@@ -7,25 +7,11 @@ import { ModuleWithProviders } from '@angular/core';
 
 export const routes: Routes = [
   {
-    path: 'login',
-    loadChildren: 'app/pages/login/login.module#LoginModule'
-  },
-  {
-    path: 'register',
-    loadChildren: 'app/pages/register/register.module#RegisterModule'
-  },
-  {
     path: 'pages',
     component: Pages,
     children: [
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'home', loadChildren: 'app/pages/home/home.module#HomeModule' },
-      { path: 'dashboard', loadChildren: 'app/pages/dashboard/dashboard.module#DashboardModule' },
-      { path: 'editors', loadChildren: 'app/pages/editors/editors.module#EditorsModule' },
-      { path: 'components', loadChildren: 'app/pages/components/components.module#ComponentsModule' },
-      { path: 'charts', loadChildren: 'app/pages/charts/charts.module#ChartsModule' },
-      { path: 'forms', loadChildren: 'app/pages/forms/forms.module#FormsModule' },
-      { path: 'tables', loadChildren: 'app/pages/tables/tables.module#TablesModule' }
+      { path: 'home', loadChildren: 'app/pages/home/home.module#HomeModule' }
     ]
   }
 ];
