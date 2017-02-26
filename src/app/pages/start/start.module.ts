@@ -3,8 +3,8 @@ import { CommonModule }  from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgaModule } from '../../theme/nga.module';
 
-import { Home } from './home.component';
-import { routing }       from './home.routing';
+import { Start } from './start.component';
+import { routing }       from './start.routing';
 
 
 @NgModule({
@@ -16,7 +16,7 @@ import { routing }       from './home.routing';
     routing
   ],
   declarations: [
-    Home
+    Start
   ]
 })
-export class HomeModule {}
+export class StartModule {}

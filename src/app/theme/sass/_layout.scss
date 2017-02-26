@@ -1,15 +1,13 @@
 @import 'conf/conf';
-
 $left-space: $sidebar-width;
-
 @include scrollbars(.5em, #d9d9d9, rgba(0, 0, 0, 0));
-
 html {
   position: relative;
   min-width: 320px;
 }
 
-html, body {
+html,
+body {
   min-height: 100%;
   height: 100%;
   min-width: $resMin;
@@ -20,16 +18,15 @@ main {
   position: relative;
   font: 14px/16px $font-family;
   color: $default-text;
-
   @include body-bg();
-
   .additional-bg {
     display: none;
     @include additional-bg();
   }
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
   html {
     overflow: hidden;
     height: 100%;
@@ -68,7 +65,7 @@ a {
 
 .al-footer {
   height: 34px;
-  padding: 0 18px 0 ($left-space + 20px);
+  padding: 0 10px 0 ($left-space + 10px);
   width: 100%;
   position: absolute;
   display: block;
@@ -85,6 +82,11 @@ a {
 
 .al-copy {
   float: left;
+}
+
+.al-mail {
+  float: left;
+  margin-left: 15px;
 }
 
 .al-footer-right {
@@ -112,7 +114,7 @@ a {
   li {
     list-style: none;
     float: left;
-    margin-left: 16px;
+    margin-left: 7px;
     i {
       cursor: pointer;
       transition: all 0.1s ease;
@@ -153,7 +155,8 @@ a {
   left: -9999px;
 }
 
-.icon-up, .icon-down {
+.icon-up,
+.icon-down {
   width: 5px;
   height: 13px;
   display: block;
@@ -176,7 +179,7 @@ a {
   text-align: right
 }
 
-.amcharts-chart-div > a {
+.amcharts-chart-div>a {
   font-size: 6px !important;
 }
 

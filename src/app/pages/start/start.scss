@@ -1,0 +1,41 @@
+@import '../../theme/sass/conf/conf';
+
+$color1: #E64A19;
+$color2: #0277BD;
+$color3: #388E3C;
+$color4: #FBC02D;
+
+.title {
+  font-size: 40px;
+  line-height:40px;
+  width: 100%;
+  text-align: center;
+}
+
+.first {
+  color:$color2;
+} 
+.second {
+  color:$color1;
+}
+.third {
+  color:$color4;
+}
+.forth {
+  color:$color3;
+}
+.fifth {
+  color:$color1;
+}
+.sixth{
+  color:$color2;
+}
+.seventh {
+  color:$color3;
+}
+.eigth {
+  color: $color1;
+}
+.ninth {
+  color:$color4;
+}
