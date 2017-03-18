@@ -18,7 +18,7 @@ export const PAGES_MENU = [
         path: 'about',
         data: {
           menu: {
-            title: 'About',
+            title: 'Om',
             icon: 'ion-information-circled',
             selected: false,
             expanded: false,
@@ -30,7 +30,7 @@ export const PAGES_MENU = [
             path: 'author',
             data: {
               menu: {
-                title: 'What we do',
+                title: 'Vad gör jag?',
               }
             }
           },
@@ -38,7 +38,7 @@ export const PAGES_MENU = [
             path: 'company',
             data: {
               menu: {
-                title: 'Company',
+                title: 'Företaget',
               }
             }
           }
